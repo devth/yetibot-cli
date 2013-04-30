@@ -15,7 +15,7 @@ maintainer:          yetibot-cli@devth.com
 build-type:          Simple
 cabal-version:       >=1.8
 
-executable yetibot-cli
-  -- main-is:
+executable yeti
+  main-is:           YetiBot.hs
   -- other-modules:
-  build-depends:       base ==4.5.*
+  build-depends:     base==4.5.*, HTTP
