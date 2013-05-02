@@ -12,8 +12,8 @@ main = do
     -- device)
     contents <- hIsTerminalDevice stdin >>= \isT -> if isT then return "" else getContents
     let url = endpoint base token $ intercalate " " $ args ++ [contents]
-    resp <- simpleHTTP (postRequest url) >>= getResponseBody
+    resp <- simpleHTTP (getRequest url) >>= getResponseBody
     putStrLn resp
 
 endpoint :: String -> String -> String -> String
-endpoint base token = ((base ++ "/api?token=" ++ token ++ "command=") ++) . urlEncode
+endpoint base token = ((base ++ "/api?token=" ++ token ++ "&command=") ++) . urlEncode
