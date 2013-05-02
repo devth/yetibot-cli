@@ -1,6 +1,6 @@
 # yetibot-cli
 
-A CLI to your YetiBot
+A CLI to your [YetiBot](https://github.com/devth/yetibot)
 
 ## Configuration
 
