@@ -5,7 +5,7 @@ A CLI to your [YetiBot](https://github.com/devth/yetibot)
 ## Configuration
 
 Set a `YETIBOT_ENDPOINT` env var pointing to wherever your YetiBot is running, and
-YETIBOT_ACCESS_TOKEN set to your Campfire token.
+a `YETIBOT_ACCESS_TOKEN` var set to your Campfire token.
 
 ```
 export YETIBOT_ENDPOINT=http://yetibot.foo.io
