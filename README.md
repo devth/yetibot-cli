@@ -37,3 +37,97 @@ cabal install --prefix=$HOME --user
 $ yeti catfact
 On average, a cat will sleep for 16 hours a day.
 ```
+
+```
+$ for i in {1..10}; do; foo=""; for j in {1..$i}; do; foo+=":cop:"; done; yeti echo $foo; done
+```
+:cop:<br />
+:cop::cop:<br />
+:cop::cop::cop:<br />
+:cop::cop::cop::cop:<br />
+:cop::cop::cop::cop::cop:<br />
+:cop::cop::cop::cop::cop::cop:<br />
+:cop::cop::cop::cop::cop::cop::cop:<br />
+:cop::cop::cop::cop::cop::cop::cop::cop:<br />
+:cop::cop::cop::cop::cop::cop::cop::cop::cop:<br />
+:cop::cop::cop::cop::cop::cop::cop::cop::cop::cop:
+
+```
+$ yeti help
+Use help <topic> for more details
+!
+<gen>that
+ascii
+attack
+catfact
+chat
+cheflog
+classnamer
+clj
+cls
+complete
+count
+curl
+ebay
+echo
+eval
+exceptions
+features
+ff
+gh
+giftv
+grep
+haiku
+head
+help
+history
+hs
+http
+image
+info
+jen
+join
+js
+keys
+larry
+list
+mail
+meme
+memethat
+mustachefact
+notit
+number
+order
+poke
+poms
+random
+raw
+react
+reload
+repeat
+reverse
+rhyme
+s3
+scala
+scalex
+set
+signups
+sort
+source
+ssh
+status
+tail
+tee
+twitter
+update
+uptime
+urban
+users
+vals
+weather
+wiki
+wolfram
+wordnik
+xargs
+xkcd
+```
