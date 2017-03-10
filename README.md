@@ -1,5 +1,7 @@
 # yetibot-cli
 
+:warning: **Not maintained.** If you're interested in this, ping me and I'll probably make it work! :warning:
+
 A CLI to your [YetiBot](https://github.com/devth/yetibot)
 
 ## Configuration
